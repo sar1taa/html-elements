@@ -134,6 +134,8 @@ in pre tag
 
            <!--Form tag-->
            <h3>Form Elements</h3>
+           <fieldset>
+            <legend>Personal Information</legend>
            <form action="#" method="post">
             <label for="firstname">First Name:</label>
             <input type="text" name="firstname" id="firstname"> <br> <br>
@@ -197,6 +199,39 @@ in pre tag
             <label for="week">Select Week:</label>
             <input type="week" name="week" id="week">
             <br><br>
+            <label for="textarea">Enter Address:</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="2"></textarea>
+            <br><br>
+            <label for="selectcity">Select City:</label>
+            <select name="selectcity" id="selectcity">
+                <option value="Select">Select</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Jodhpur">Jodhpur</option>
+                <option value="Kota">Kota</option>
+                <option value="Ajmer">Ajmer</option>
+            </select>
+            <br><br>
+            <label for="selectcountry">Select Country:</label>
+            <select name="selectcountry" id="selectcountry">
+                <optgroup label="India">
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Uttar Pardesh">Uttar Pardesh</option>
+                    <option value="Uttrakhand">Uttrakhand</option>
+                </optgroup>
+            </select>
+            <br><br>
+             <label for="browser">Choose your browser:</label>
+               <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                 <option value="Edge">
+                 <option value="Firefox">
+                 <option value="Chrome">
+                 <option value="Opera">
+                 <option value="Safari">
+                </datalist>
+            <br><br>
+            <button type="button" onclick="alert('Hello')">Click Me!</button>
+            <br><br>
             <input type="reset" value="Reset">
             <input type="submit">
            </form>
@@ -206,6 +241,7 @@ in pre tag
             <input type="search" name="search" id="search">
             <input type="submit" value="Search">
            </form>
+           </fieldset>
           <script src="" async defer></script>
     </body>
 </html>
