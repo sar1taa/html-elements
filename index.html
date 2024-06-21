@@ -19,12 +19,22 @@
             p{
                 color: blue;
             }
+            .divtag{
+                background-color: skyblue;
+            }
+            span{
+                color: red;
+            }
         </style>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <header>
+            <h2>Some heading</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+           </header>
         <img src="../img/landscape.jpg" alt="landscape" width="50%" usemap="#landscapemap">
         <map name="landscapemap">
             <area shape="poly" coords="378,257,7,423,379,421" href="../img/river.jpg" alt="River" title="River">
@@ -314,7 +324,48 @@ in pre tag
             </tr>
            </tfoot>
            </table>
+           
+           <div class="divtag">
+            <p>This is some text in Div element</p>
+           </div>
+           
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Doloremque voluptatum</span> aliquam quod incidunt voluptates consectetur reiciendis debitis. Modi perspiciatis a sit nesciunt consequuntur? Tempore molestiae consectetur porro voluptas, vitae doloremque!</p>
 
+           <main>
+            <h2>Main heading</h2>
+            <article>
+                <p>sone content in article</p>
+            </article>
+            <article>
+                <p> some content in article
+                </p>
+            </article>
+           </main>
+           
+           <section>
+            <h1>Section heading</h1>
+            <p>Some content in section</p>
+           </section>
+
+           <details>
+            <summary>Summary</summary>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias cum recusandae odit deserunt nostrum iusto dolore non, temporibus quas dicta nesciunt autem necessitatibus consequatur neque placeat quos reiciendis, dolores eum.</p>
+           </details>
+
+           <dialog open>
+            Lorem ipsum 
+           </dialog>
+           
+           <ul>
+            <li><data value="21053">Cherry Tomato</data></li>
+            <li><data value="21054">Beef Tomato</data></li>
+            <li><data value="21055">Snack Tomato</data></li>
+          </ul>
+          
+           <footer>
+            <h4>Some content in footer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos molestiae consequatur fuga blanditiis. </p>
+           </footer>
            <script src="" async defer></script>
     </body>
 </html>
